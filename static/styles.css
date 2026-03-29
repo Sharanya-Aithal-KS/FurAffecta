@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* NAVBAR */
+.navbar-custom {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
+    backdrop-filter: blur(12px);
+    color: black;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.nav-left {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* Push content below navbar */
+body {
+    padding-top: 80px;
+}
+
+/* CARD STYLE (Glass effect) */
+.card {
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.08);
+    color: black;
+    text-align: center;
+    padding: 25px;
+    max-width: 420px;
+    margin: auto;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* RESULT BOX */
+.result-box { 
+    background: white;
+    padding: 40px; 
+    border-radius: 20px; 
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3); 
+    text-align: center;
+    color: black;
+}
+
+/* BUTTONS */
+.btn-primary {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.08);
+    box-shadow: 0 5px 15px rgba(118, 75, 162, 0.5);
+}
+
+.btn-secondary {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: white;
+}
+
+/* IMAGE PREVIEW */
+#preview {
+    border-radius: 15px;
+    margin-top: 15px;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.4);
+}
+
+/* EMOTION TEXT */
+.emotion {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+/* EMOTION COLORS (Modern palette) */
+.angry { color: #ff4b5c; }
+.happy { color: #00d084; }
+.relaxed { color: #fbc531; }
+.sad { color: #4dabf7; }

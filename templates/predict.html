@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FurAffecta</title>
+
+    <!-- Same CSS as index -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+<div class="result-box">
+
+    <h2>Your Pet Is Likely:</h2>
+
+    {% if pred == 0 %}
+        <div class="emotion angry"><b>ANGRY 😠</b></div>
+    {% elif pred == 1 %}
+        <div class="emotion happy"><b>HAPPY 😊</b></div>
+    {% elif pred == 2 %}
+        <div class="emotion relaxed"><b>SCARED 😨</b></div>
+    {% elif pred == 3 %}
+        <div class="emotion sad"><b>SAD 😢</b></div>
+    {% else %}
+        <div class="emotion">Prediction not available</div>
+    {% endif %}
+
+    <br><br>
+    <a href="/" class="btn btn-secondary">Try Another Image</a>
+
+</div>
+
+</body>
+</html>

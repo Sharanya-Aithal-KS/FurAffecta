@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FurAffecta</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <script>
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    var img = document.getElementById('preview');
+                    img.src = e.target.result;
+                    img.style.display = 'block';
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    </script>
+</head>
+
+<body>
+<nav class="navbar-custom">
+    <div class="nav-left">
+        🐾 FurAffecta: Pet Emotion Classification System
+    </div>
+</nav>
+<div class="container text-center">
+
+
+
+    {% if message %}
+        <div class="alert alert-danger">{{ message }}</div>
+    {% endif %}
+
+    <div class="card">
+
+        <h3>Upload Your Pet Image</h3>
+
+        <form action="{{ url_for('pet_emotion_predictPage') }}" method="POST" enctype="multipart/form-data">
+            <br>
+            <input type="file" name="image" onchange="readURL(this);" required>
+            <br><br>
+
+            <img id="preview" class="img-fluid" style="display:none; max-height:300px;" />
+
+            <br><br>
+            <button type="submit" class="btn btn-primary">Track Emotion</button>
+        </form>
+
+    </div>
+
+</div>
+
+</body>
+</html>
