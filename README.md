@@ -137,9 +137,3 @@ This project demonstrates how classical machine learning techniques can effectiv
 ![Prediction](screenshots/angry2.png)
 ![Prediction](screenshots/happy1.png)
 ![Prediction](screenshots/happy2.png)
-
-## 🎥 Demo Video
-
-<video width="700" controls>
-  <source src="demo/FurAffecta.mp4" type="video/mp4">
-</video>
