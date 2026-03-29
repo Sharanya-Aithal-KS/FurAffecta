@@ -12,36 +12,36 @@ It is designed to be lightweight, fast, and efficient, without requiring high-en
 
 🎯 Objectives
 
-->Develop an image-based pet emotion classification system
-->Implement ML models: Decision Tree, KNN, Random Forest, Logistic Regression
-->Classify pet emotions into predefined categories
-->Evaluate performance using standard metrics
+->Develop an image-based pet emotion classification system<br>
+->Implement ML models: Decision Tree, KNN, Random Forest, Logistic Regression<br>
+->Classify pet emotions into predefined categories<br>
+->Evaluate performance using standard metrics<br>
 
 🛠️ Technologies Used
 
-->Python – Core programming
-->OpenCV – Image preprocessing
-->HOG (Histogram of Oriented Gradients) – Feature extraction
-->Scikit-learn – Model training & evaluation
-->NumPy – Data processing
-->Matplotlib & Seaborn – Visualization
-->HTML & CSS – User interface
+->Python – Core programming<br>
+->OpenCV – Image preprocessing<br>
+->HOG (Histogram of Oriented Gradients) – Feature extraction<br>
+->Scikit-learn – Model training & evaluation<br>
+->NumPy – Data processing<br>
+->Matplotlib & Seaborn – Visualization<br>
+->HTML & CSS – User interface<br>
 
 ⚙️ System Workflow
 
-->Upload pet image
-->Preprocess image (resize, grayscale, noise removal)
-->Extract features using HOG
-->Pass features to trained ML model
-->Predict pet emotion
+->Upload pet image<br>
+->Preprocess image (resize, grayscale, noise removal)<br>
+->Extract features using HOG<br>
+->Pass features to trained ML model<br>
+->Predict pet emotion<br>
 
 📊 Model Performance
-Model	Test Accuracy
-->Random Forest	92.23% 
-->Logistic Regression	90.77%
-->Decision Tree	89.05%
-->KNN	49.59%
-👉 Best Performing Model: Random Forest
+Model	Test Accuracy<br>
+->Random Forest	92.23% <br>
+->Logistic Regression	90.77%<br>
+->Decision Tree	89.05%<br>
+->KNN	49.59%<br>
+👉 Best Performing Model: Random Forest<br>
 
 📦 Project Structure
 
@@ -81,38 +81,38 @@ python app.py
 
 💡 Features
 
-✔ Automatic pet emotion detection
-✔ Lightweight ML model
-✔ Fast prediction
-✔ Simple UI
-✔ Works on standard systems
+✔ Automatic pet emotion detection<br>
+✔ Lightweight ML model<br>
+✔ Fast prediction<br>
+✔ Simple UI<br>
+✔ Works on standard systems<br>
 
 ✅ Advantages
 
-->Reduces manual interpretation errors
-->Fast and efficient
-->Low computational requirements
-->Easy to use
+->Reduces manual interpretation errors<br>
+->Fast and efficient<br>
+->Low computational requirements<br>
+->Easy to use<br>
 
 ⚠️ Limitations
 
-->Depends on dataset quality
-->Limited feature representation (HOG)
-->Not suitable for subtle emotions
-->No real-time video support
+->Depends on dataset quality<br>
+->Limited feature representation (HOG)<br>
+->Not suitable for subtle emotions<br>
+->No real-time video support<br>
 
 🚀 Future Enhancements
 
-->Deep learning (CNN) integration
-->Real-time emotion detection
-->Mobile/web deployment
-->Larger dataset training
+->Deep learning (CNN) integration<br>
+->Real-time emotion detection<br>
+->Mobile/web deployment<br>
+->Larger dataset training<br>
 
 📈 Results
 
-->Achieved up to 92% accuracy
-->Stable and reliable predictions
-->Efficient on low-resource systems
+->Achieved up to 92% accuracy<br>
+->Stable and reliable predictions<br>
+->Efficient on low-resource systems<br>
 
 👩‍💻 Author
 Sharanya Aithal KS
