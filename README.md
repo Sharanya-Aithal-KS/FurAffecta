@@ -1,5 +1,8 @@
 🐾 FurAffecta – Pet Emotion Classification System
 
+👩‍💻 Author<br>
+Sharanya Aithal KS
+
 📌 Overview
 
 FurAffecta is a Machine Learning–based system that analyzes pet images and predicts their emotional state.
@@ -45,15 +48,27 @@ Model	Test Accuracy<br>
 
 📦 Project Structure
 
-FurAffecta/
-│── model/
-│   └── pet_emotion.h5
-│── static/
-│── templates/
-│── app.py
-│── requirements.txt
-│── README.md
-│── LICENSE
+FurAffecta/<br>
+│── model/<br>
+│   └── pet_emotion.h5<br>
+│── static/<br>
+│── templates/<br>
+│── demo/<br>
+│   └── FurAffecta.mp4<br>
+│── screenshots/<br>
+│   ├── homepage.png<br>
+│   ├── angry1.png<br>
+│   ├── angry2.png<br>
+│   ├── happy1.png<br>
+│   ├── happy2.png<br>
+│   ├── sad1.png<br>
+│   ├── sad2.png<br>
+│   ├── scared1.png<br>
+│   └── scared2.png<br>
+│── app.py<br>
+│── requirements.txt<br>
+│── README.md<br>
+│── LICENSE<br>
 
 ⚙️ Setup Instructions
 
@@ -114,13 +129,12 @@ python app.py
 ->Stable and reliable predictions<br>
 ->Efficient on low-resource systems<br>
 
-👩‍💻 Author
-Sharanya Aithal KS
 
-📜 License
+
+📜 License<br>
 This project is licensed under the MIT License.
 
-⭐ Final Note
+⭐ Final Note<br>
 This project demonstrates how classical machine learning techniques can effectively solve real-world image classification problems with high accuracy and efficiency.
 
 ## 📸 Screenshots
