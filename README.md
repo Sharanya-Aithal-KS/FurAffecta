@@ -140,4 +140,6 @@ This project demonstrates how classical machine learning techniques can effectiv
 
 ## 🎥 Demo Video
 
-[▶ Watch Demo](demo/FurAffecta.mp4)
+<video width="700" controls>
+  <source src="demo/FurAffecta.mp4" type="video/mp4">
+</video>
