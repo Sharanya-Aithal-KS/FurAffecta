@@ -5,13 +5,13 @@ Sharanya Aithal KS
 
 📌 Overview
 
-FurAffecta is a Machine Learning–based system that analyzes pet images and predicts their emotional state.
-The system uses image processing + classical machine learning models to classify pet emotions into:
-😠 Angry
-😊 Happy
-😨 Scared
-😢 Sad
-It is designed to be lightweight, fast, and efficient, without requiring high-end hardware.
+FurAffecta is a Machine Learning–based system that analyzes pet images and predicts their emotional state.<br>
+The system uses image processing + classical machine learning models to classify pet emotions into:<br>
+😠 Angry<br>
+😊 Happy<br>
+😨 Scared<br>
+😢 Sad<br>
+It is designed to be lightweight, fast, and efficient, without requiring high-end hardware.<br>
 
 🎯 Objectives
 
