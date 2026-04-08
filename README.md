@@ -102,20 +102,6 @@ python app.py
 ✔ Simple UI<br>
 ✔ Works on standard systems<br>
 
-✅ Advantages
-
-->Reduces manual interpretation errors<br>
-->Fast and efficient<br>
-->Low computational requirements<br>
-->Easy to use<br>
-
-⚠️ Limitations
-
-->Depends on dataset quality<br>
-->Limited feature representation (HOG)<br>
-->Not suitable for subtle emotions<br>
-->No real-time video support<br>
-
 🚀 Future Enhancements
 
 ->Deep learning (CNN) integration<br>
